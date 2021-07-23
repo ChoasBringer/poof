@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>View Message</title>
+    
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> 
+    <link rel="stylesheet" href="viewScreen.css"> 
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="header">
+          <h1 class="title">Check Transmission</h1>
+          <p class="subtitle">Messages will appear for a short amount of time</p>
+        </div>
+        <div class="board mt-6">
+          <div class="history">
+          </div>
+          <div class="row">
+            <div class="message-area">
+              <input class="message" type="text" id="message" placeholder="Input Passcode" required />
+              <button class="button is-normal send">SEND</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

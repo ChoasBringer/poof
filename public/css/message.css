@@ -1,0 +1,38 @@
+body {
+  background-color: #EEE1C6
+}
+h1 {
+  color: #6495ed;
+  font-family: HK Grotesh; 
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 105%;
+  margin: 0;
+  text-align: center;
+}
+.row {
+  border-style: solid;
+  border-color: #5876a6;
+    background-color: #ffc87c;
+  padding: 30px
+    
+}
+.round {
+  overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+}
+img {
+    float:left;
+  vertical-align: baseline;
+}
+h3 {
+    float:right;
+}
+.card-body {
+  height: 5rem;  
+}
